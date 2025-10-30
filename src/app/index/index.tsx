@@ -1,5 +1,6 @@
 import Button from '@/components/Button';
 import Input from '@/components/Input';
+import List from '@/components/List';
 import Feather from '@expo/vector-icons/Feather';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import { StatusBar, Text, TouchableOpacity, View } from "react-native";
@@ -35,8 +36,13 @@ export default function Index() {
               <Feather name="search" size={22} color="white" />
             </TouchableOpacity>
             </View>
+          
+            <View style={{marginTop: 5, width: '100%',   alignItems: 'center'}}>
+              <List
 
-
+              />
+            </View>
+            
           </View>
         </View>
       </SafeAreaView>
