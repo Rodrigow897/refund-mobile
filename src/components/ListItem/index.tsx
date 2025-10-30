@@ -1,10 +1,12 @@
 import { View } from "react-native";
 import styles from "./styles";
 
-export function App() {
+export function ListItem() {
   return (
     <View style={styles.container}>
-
+          
     </View>
   );
 }
+
+export default ListItem;
